@@ -12,9 +12,10 @@ class Outter {
     }
 }
 
-class Test {
-    public static void main(String[] args) {
-        Outter o = new Outter();
-        o.m1();
-    }
-}
+// class Test {
+//     public static void main(String[] args) {
+//         Outter o = new Outter();
+//         o.m1();
+//     }
+// }
+
