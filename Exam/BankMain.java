@@ -39,9 +39,9 @@ public class BankMain {
         BankAccount b3=new BankAccount();
         BankAccount b4=new BankAccount();
         
-        b1.creatAcc("shahir","current",50000);
+        b1.creatAcc("m","current",50000);
         b1.balanceInquiry();
-        b2.creatAcc("shahir","current",10000);
+        b2.creatAcc("vandan","current",10000);
         b2.balanceInquiry();
         b1.deposite(5000);
         b2.withdraw(4000);
