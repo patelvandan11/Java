@@ -1,35 +1,13 @@
-public class StringBuff { 
+public class StringBuff {
+    public static void main(String[] args) {
+        // Using String
+        String str = "Hello";
+        str += " World";
+        System.out.println("Using String: " + str);
 
-    // Method to concatenate using String
-    public static String concatWithString() { 
-        String t = "ADIT"; 
-        for (int i = 0; i < 10000; i++) { 
-            t = t + "Computer"; 
-        } 
-        return t; 
-    } 
-
-    // Method to concatenate using StringBuffer
-    public static String concatWithStringBuffer() { 
-        // Use the built-in StringBuffer class
-        StringBuffer sb = new StringBuffer("ADIT"); 
-        for (int i = 0; i < 10000; i++) { 
-            sb.append("Computer"); 
-        } 
-        return sb.toString(); 
-    } 
-
-    public static void main(String[] args) { 
-        long startTime = System.currentTimeMillis(); 
-
-        concatWithString(); 
-        System.out.println("Time taken by Concatenating with String: " 
-            + (System.currentTimeMillis() - startTime) + "ms"); 
-
-        startTime = System.currentTimeMillis(); 
-
-        concatWithStringBuffer(); 
-        System.out.println("Time taken by Concatenating with StringBuffer: " 
-            + (System.currentTimeMillis() - startTime) + "ms"); 
-    } 
+        // Using StringBuffer
+        StringBuffer stringBuffer = new StringBuffer("Hello");
+        stringBuffer.append(" World");
+        System.out.println("Using StringBuffer: " + stringBuffer.toString());
+    }
 }

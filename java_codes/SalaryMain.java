@@ -30,7 +30,7 @@ class Salary{
 }
 public class SalaryMain {
     public static void main(String args[]){
-        Salary s1=new Salary("pratik",5000000);
+        Salary s1=new Salary("pratik",500000);
         s1.display();
     }
 }
