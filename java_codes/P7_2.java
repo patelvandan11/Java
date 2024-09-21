@@ -5,7 +5,6 @@ class ValueException extends Exception {
         super(m);
     }
 }
-
 class ZeroException extends Exception {
     ZeroException(String m) {
         super(m);
@@ -16,7 +15,7 @@ public class P7_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         try {
-            System.out.print("Enter the number of elements in the array: ");
+            System.out.println("Enter the number of elements in the array: ");
             int n = scanner.nextInt();
             if (n == 0) {
                 throw new ZeroException("Number of elements cannot be zero.");
