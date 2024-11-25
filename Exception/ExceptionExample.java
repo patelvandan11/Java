@@ -13,7 +13,7 @@ public class ExceptionExample {
         }
     }
 
-    public static int divide(int num1, int num2) throws ArithmeticException {
+    public static int divide(int num1, int num2) throws Exception {
         if (num2 == 0) {
             throw new ArithmeticException("Division by zero");
         }

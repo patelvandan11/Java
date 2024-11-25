@@ -1,6 +1,9 @@
 class Jaggad {
     public static void main(String[] args){
         int[][] arr = new int[3][];
+        // This declares a 2-dimensional jagged array with 3 rows.
+        // Each row can have a different number of columns (hence the term "jagged").
+        // The number of columns for each row is not specified at this point.
         arr[0] = new int[3];
         arr[1] = new int[2];
         arr[2] = new int[5];
